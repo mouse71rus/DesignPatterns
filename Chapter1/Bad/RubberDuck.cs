@@ -12,6 +12,11 @@ namespace Chapter1.Bad
             //Пустое переопрделение, чтобы резиновые утки не крякали
         }
 
+        public new void fly()
+        {
+            //Пустое переопрделение, чтобы резиновые утки не летали
+        }
+
         public override void display()
         {
             // Конкретная версия для RubberDuck
