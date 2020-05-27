@@ -24,6 +24,14 @@ namespace Chapter1
             decoy.setFlyBehavior(new Good.FlyRocketPowered());
             decoy.PerformFly();
 
+            Console.WriteLine();
+
+            Brainstorm.Hunter baseHunter = new Brainstorm.BaseHunter();
+            Console.WriteLine("Hello!");
+            baseHunter.display();
+            baseHunter.PerformUseThing();
+            
+
             Console.ReadKey();
         }
     }

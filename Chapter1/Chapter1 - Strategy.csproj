@@ -48,6 +48,10 @@
     <Compile Include="Bad\MallardDuck.cs" />
     <Compile Include="Bad\RedheadDuck.cs" />
     <Compile Include="Bad\RubberDuck.cs" />
+    <Compile Include="Brainstorm\BaseHunter.cs" />
+    <Compile Include="Brainstorm\Decoy.cs" />
+    <Compile Include="Brainstorm\Hunter.cs" />
+    <Compile Include="Brainstorm\IThing.cs" />
     <Compile Include="Good\DecoyDuck.cs" />
     <Compile Include="Good\Duck.cs" />
     <Compile Include="Good\FlyNoWay.cs" />
