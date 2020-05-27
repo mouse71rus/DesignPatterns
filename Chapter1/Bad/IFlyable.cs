@@ -5,9 +5,8 @@ using System.Text;
 
 namespace Chapter1.Bad
 {
-    public abstract class Duck
+    public interface IFlyable
     {
-        public void swim() { }
-        public abstract void display();
+        void Fly();
     }
 }
