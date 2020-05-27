@@ -9,6 +9,7 @@ namespace Chapter1.Bad
     {
         public void quack() { }
         public void swim() { }
+        public void fly() { }
         public abstract void display();
     }
 }
