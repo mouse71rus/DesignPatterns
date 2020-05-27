@@ -9,6 +9,12 @@ namespace Chapter1
     {
         static void Main(string[] args)
         {
+            Good.Duck mallard = new Good.MallardDuck();
+            mallard.display();
+            mallard.PerformFly();
+            mallard.PerformQuack();
+
+            Console.ReadKey();
         }
     }
 }
