@@ -14,6 +14,16 @@ namespace Chapter1
             mallard.PerformFly();
             mallard.PerformQuack();
 
+            Console.WriteLine();
+
+            Good.Duck decoy = new Good.DecoyDuck();
+            decoy.display();
+            decoy.PerformFly();
+            decoy.PerformQuack();
+
+            decoy.setFlyBehavior(new Good.FlyRocketPowered());
+            decoy.PerformFly();
+
             Console.ReadKey();
         }
     }

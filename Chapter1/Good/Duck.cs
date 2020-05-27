@@ -20,6 +20,15 @@ namespace Chapter1.Good
             flyBehavior.Fly();
         }
 
+        public void setFlyBehavior(IFlyBehavior fb)
+        {
+            flyBehavior = fb;
+        }
+        public void setQuackBehavior(IQuackBehavior qb)
+        {
+            quackBehavior = qb;
+        }
+
         public void swim()
         {
             Console.WriteLine("I'm swimming");

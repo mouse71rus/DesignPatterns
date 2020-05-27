@@ -48,8 +48,10 @@
     <Compile Include="Bad\MallardDuck.cs" />
     <Compile Include="Bad\RedheadDuck.cs" />
     <Compile Include="Bad\RubberDuck.cs" />
+    <Compile Include="Good\DecoyDuck.cs" />
     <Compile Include="Good\Duck.cs" />
     <Compile Include="Good\FlyNoWay.cs" />
+    <Compile Include="Good\FlyRocketPowered.cs" />
     <Compile Include="Good\FlyWithWings.cs" />
     <Compile Include="Good\IFlyBehavior.cs" />
     <Compile Include="Good\IQuackBehavior.cs" />
