@@ -13,7 +13,19 @@ namespace Chapter2
             Console.WriteLine("Chapter2 - Observer");
             Console.WriteLine();
 
-            
+            Chapter2.Bad.WeatherData wd = new Bad.WeatherData(
+                new Bad.CurrentConditionsDisplay(), 
+                new Bad.StatisticsDisplay(), 
+                new Bad.ForecastDisplay()
+            );
+
+            //симуляция получения новых данных
+            wd.measurementsChanged();
+            wd.measurementsChanged();
+            wd.measurementsChanged();
+            wd.measurementsChanged();
+            wd.measurementsChanged();
+
             Console.ReadKey();
         }
     }

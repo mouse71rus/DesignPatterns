@@ -41,8 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bad\CurrentConditionsDisplay.cs" />
+    <Compile Include="Bad\ForecastDisplay.cs" />
+    <Compile Include="Bad\IDisplay.cs" />
+    <Compile Include="Bad\StatisticsDisplay.cs" />
+    <Compile Include="Bad\WeatherData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Good\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
