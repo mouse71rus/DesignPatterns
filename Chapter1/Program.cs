@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Chapter2;
 namespace Chapter1
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Chapter1 - Strategy");
+            Console.WriteLine();
+
             Good.Duck mallard = new Good.MallardDuck();
             mallard.display();
             mallard.PerformFly();
@@ -33,6 +36,10 @@ namespace Chapter1
             
 
             Console.ReadKey();
+
+
+            // Chapter2 - Observer
+            Chapter2.Program.Main(args);
         }
     }
 }

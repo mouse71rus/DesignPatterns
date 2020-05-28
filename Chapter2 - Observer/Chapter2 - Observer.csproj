@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6FF22945-4203-4A7D-8FAB-3B358D039585}</ProjectGuid>
+    <ProjectGuid>{B6306511-052A-4F6F-B589-D5DD1397883E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter1</RootNamespace>
-    <AssemblyName>Chapter1 - Strategy</AssemblyName>
+    <RootNamespace>Chapter2</RootNamespace>
+    <AssemblyName>Chapter2 - Observer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,36 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bad\DecoyDuck.cs" />
-    <Compile Include="Bad\Duck.cs" />
-    <Compile Include="Bad\IFlyable.cs" />
-    <Compile Include="Bad\IQuackable.cs" />
-    <Compile Include="Bad\MallardDuck.cs" />
-    <Compile Include="Bad\RedheadDuck.cs" />
-    <Compile Include="Bad\RubberDuck.cs" />
-    <Compile Include="Brainstorm\BaseHunter.cs" />
-    <Compile Include="Brainstorm\Decoy.cs" />
-    <Compile Include="Brainstorm\Hunter.cs" />
-    <Compile Include="Brainstorm\IThing.cs" />
-    <Compile Include="Good\DecoyDuck.cs" />
-    <Compile Include="Good\Duck.cs" />
-    <Compile Include="Good\FlyNoWay.cs" />
-    <Compile Include="Good\FlyRocketPowered.cs" />
-    <Compile Include="Good\FlyWithWings.cs" />
-    <Compile Include="Good\IFlyBehavior.cs" />
-    <Compile Include="Good\IQuackBehavior.cs" />
-    <Compile Include="Good\MallardDuck.cs" />
-    <Compile Include="Good\MuteQuack.cs" />
-    <Compile Include="Good\Quack.cs" />
-    <Compile Include="Good\Squeak.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Chapter2 - Observer\Chapter2 - Observer.csproj">
-      <Project>{b6306511-052a-4f6f-b589-d5dd1397883e}</Project>
-      <Name>Chapter2 - Observer</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

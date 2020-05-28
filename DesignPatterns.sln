@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter1 - Strategy", "Chapter1\Chapter1 - Strategy.csproj", "{6FF22945-4203-4A7D-8FAB-3B358D039585}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter2 - Observer", "Chapter2 - Observer\Chapter2 - Observer.csproj", "{B6306511-052A-4F6F-B589-D5DD1397883E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6FF22945-4203-4A7D-8FAB-3B358D039585}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FF22945-4203-4A7D-8FAB-3B358D039585}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FF22945-4203-4A7D-8FAB-3B358D039585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6306511-052A-4F6F-B589-D5DD1397883E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6306511-052A-4F6F-B589-D5DD1397883E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6306511-052A-4F6F-B589-D5DD1397883E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6306511-052A-4F6F-B589-D5DD1397883E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
