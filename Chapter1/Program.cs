@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Chapter2;
+using Chapter3;
 namespace Chapter1
 {
     class Program
@@ -40,6 +41,10 @@ namespace Chapter1
 
             // Chapter2 - Observer
             Chapter2.Program.Main(args);
+
+
+            // Chapter3 - Decorator
+            Chapter3.Program.Main(args);
         }
     }
 }
