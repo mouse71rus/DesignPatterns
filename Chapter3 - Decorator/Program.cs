@@ -13,7 +13,14 @@ namespace Chapter3
             Console.WriteLine("Chapter3 - Decorator");
             Console.WriteLine();
 
-            
+            Bad.Beverage expresso = new Bad.Espresso();
+            Console.WriteLine(expresso.GetDescription());
+            Bad.Beverage houseBlend = new Bad.HouseBlend();
+            Console.WriteLine(houseBlend.GetDescription());
+            Bad.Beverage decaf = new Bad.Decaf();
+            Console.WriteLine(decaf.GetDescription());
+            Bad.Beverage darkRoast = new Bad.DarkRoast();
+            Console.WriteLine(darkRoast.GetDescription());
 
             Console.ReadKey();
         }
