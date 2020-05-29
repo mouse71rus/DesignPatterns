@@ -18,6 +18,8 @@ namespace Chapter3
             Bad.Beverage houseBlend = new Bad.HouseBlend();
             Console.WriteLine(houseBlend.GetDescription());
             Bad.Beverage decaf = new Bad.Decaf();
+            decaf.setMilk(true);
+            decaf.setSoy(true);
             Console.WriteLine(decaf.GetDescription());
             Bad.Beverage darkRoast = new Bad.DarkRoast();
             Console.WriteLine(darkRoast.GetDescription());

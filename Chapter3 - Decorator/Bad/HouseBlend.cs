@@ -14,7 +14,26 @@ namespace Chapter3.Bad
 
         public override decimal Cost()
         {
-            return 69.99m;
+            decimal res = 0m;
+
+            if (hasMilk())
+            {
+                res += 10m;
+            }
+            if (hasSoy())
+            {
+                res += 5m;
+            }
+            if (hasMocha())
+            {
+                res += 12m;
+            }
+            if (hasWhip())
+            {
+                res += 7;
+            }
+
+            return res + 69.99m;
         }
     }
 }
