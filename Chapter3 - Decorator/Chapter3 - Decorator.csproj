@@ -49,11 +49,19 @@
     <Compile Include="Bad\Decaf.cs" />
     <Compile Include="Bad\Espresso.cs" />
     <Compile Include="Bad\HouseBlend.cs" />
+    <Compile Include="Good\Beverage.cs" />
+    <Compile Include="Good\CondimentDecorator.cs" />
+    <Compile Include="Good\DarkRoast.cs" />
+    <Compile Include="Good\Decaf.cs" />
+    <Compile Include="Good\Espresso.cs" />
+    <Compile Include="Good\HouseBlend.cs" />
+    <Compile Include="Good\Milk.cs" />
+    <Compile Include="Good\Mocha.cs" />
+    <Compile Include="Good\Soy.cs" />
+    <Compile Include="Good\Whip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Good\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

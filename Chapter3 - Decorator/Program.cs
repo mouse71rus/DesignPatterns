@@ -13,10 +13,20 @@ namespace Chapter3
             Console.WriteLine("Chapter3 - Decorator");
             Console.WriteLine();
 
-            Bad.Beverage expresso = new Bad.Espresso();
+            Good.Beverage expresso = new Good.Espresso();
             Console.WriteLine(expresso.GetDescription());
-            Bad.Beverage houseBlend = new Bad.HouseBlend();
-            Console.WriteLine(houseBlend.GetDescription());
+
+
+
+            Good.Beverage houseBlend = new Good.HouseBlend();
+            Console.WriteLine(houseBlend.GetDescription() + " Cost: " + houseBlend.Cost());
+            houseBlend = new Good.Milk(houseBlend);
+            
+            
+            
+            Console.WriteLine(houseBlend.GetDescription() + " Cost: " + houseBlend.Cost());
+
+
             Bad.Beverage decaf = new Bad.Decaf();
             decaf.setMilk(true);
             decaf.setSoy(true);
