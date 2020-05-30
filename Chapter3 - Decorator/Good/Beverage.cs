@@ -10,7 +10,7 @@ namespace Chapter3.Good
         protected string Description = "Unknown Beverage";
 
 
-        public string GetDescription()
+        public virtual string GetDescription()
         {
             return Description;
         }

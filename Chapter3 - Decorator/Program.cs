@@ -22,8 +22,8 @@ namespace Chapter3
             Console.WriteLine(houseBlend.GetDescription() + " Cost: " + houseBlend.Cost());
             houseBlend = new Good.Milk(houseBlend);
 
-            var a = houseBlend as Good.Milk; // Эта строка обязательна, иначе не работает
-            Console.WriteLine(a.GetDescription() + " Cost: " + houseBlend.Cost());
+            //var a = houseBlend as Good.Milk; // Эта строка обязательна, иначе не работает
+            Console.WriteLine(houseBlend.GetDescription() + " Cost: " + houseBlend.Cost());
 
 
             Bad.Beverage decaf = new Bad.Decaf();
