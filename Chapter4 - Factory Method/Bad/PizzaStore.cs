@@ -7,25 +7,16 @@ namespace Chapter4.Bad
 {
     public class PizzaStore
     {
+        private SimplePizzaFactory factory;
+
+        public PizzaStore(SimplePizzaFactory factory)
+        {
+            this.factory = factory;
+        }
+
         public IPizza order(string type)
         {
-            IPizza pizza;
-            switch(type)
-            {
-                case "cheese":
-                    pizza = new CheesePizza();
-                    break;
-                case "Clam":
-                    pizza = new ClamPizza();
-                    break;
-                case "Viggie":
-                    pizza = new ViggiePizza();
-                    break;
-                default:
-                    pizza = null;
-                    break;
-            }
-
+            IPizza pizza = factory.CreatePizza(type);
 
             pizza.prepare();
             pizza.bake();
