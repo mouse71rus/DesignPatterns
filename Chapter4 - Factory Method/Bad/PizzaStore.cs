@@ -18,6 +18,9 @@ namespace Chapter4.Bad
                 case "Clam":
                     pizza = new ClamPizza();
                     break;
+                case "Viggie":
+                    pizza = new ViggiePizza();
+                    break;
                 default:
                     pizza = null;
                     break;
