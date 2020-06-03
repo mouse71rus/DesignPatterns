@@ -44,12 +44,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bad\CheesePizza.cs" />
+    <Compile Include="Bad\ClamPizza.cs" />
+    <Compile Include="Bad\IPizza.cs" />
+    <Compile Include="Bad\PizzaStore.cs" />
+    <Compile Include="Bad\SimplePizzaFactory.cs" />
+    <Compile Include="Bad\ViggiePizza.cs" />
+    <Compile Include="Good\ChicagoStyleCheesePizza.cs" />
+    <Compile Include="Good\ChicagoStyleClamPizza.cs" />
+    <Compile Include="Good\ChicagoStylePizzaStore.cs" />
+    <Compile Include="Good\Pizza.cs" />
+    <Compile Include="Good\NYStyleCheesePizza.cs" />
+    <Compile Include="Good\NYStyleClamPizza.cs" />
+    <Compile Include="Good\NYStylePizzaStore.cs" />
+    <Compile Include="Good\ChicagoStyleViggiePizza.cs" />
+    <Compile Include="Good\NYStyleViggiePizza.cs" />
+    <Compile Include="Good\PizzaStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Bad\" />
-    <Folder Include="Good\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
