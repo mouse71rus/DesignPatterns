@@ -13,7 +13,12 @@ namespace Chapter5
             Console.WriteLine("Chapter5 - Singleton");
             Console.WriteLine();
 
-            
+            Good.ChocolateBoiler boiler = Good.ChocolateBoiler.GetInstance();
+
+            boiler.Fiil();
+
+            Good.ChocolateBoiler boiler2 = Good.ChocolateBoiler.GetInstance();
+            boiler2.Fiil();
 
             Console.ReadKey();
         }

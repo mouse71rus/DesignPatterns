@@ -20,7 +20,7 @@ namespace Chapter5.Good
 
         public static ChocolateBoiler GetInstance()
         {
-            return Instance ?? new ChocolateBoiler();
+            return Instance ?? (Instance = new ChocolateBoiler());
         }
 
         public void Fiil()
