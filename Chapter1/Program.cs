@@ -51,6 +51,9 @@ namespace Chapter1
 
             // Chapter4 - Factory Method
             Chapter4.Program.Main(args);
+
+            // Chapter5 - Singleton
+            Chapter5.Program.Main(args);
         }
     }
 }

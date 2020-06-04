@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter3 - Decorator", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter4 - Factory Method", "Chapter4 - Factory Method\Chapter4 - Factory Method.csproj", "{1E68112C-0A60-44C3-8309-4DF5120DDAC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5 - Singleton", "Chapter5 - Singleton\Chapter5 - Singleton.csproj", "{902F5846-9D63-4C12-9024-05031470D009}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1E68112C-0A60-44C3-8309-4DF5120DDAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E68112C-0A60-44C3-8309-4DF5120DDAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E68112C-0A60-44C3-8309-4DF5120DDAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902F5846-9D63-4C12-9024-05031470D009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902F5846-9D63-4C12-9024-05031470D009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902F5846-9D63-4C12-9024-05031470D009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902F5846-9D63-4C12-9024-05031470D009}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

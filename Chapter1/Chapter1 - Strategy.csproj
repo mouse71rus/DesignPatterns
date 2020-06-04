@@ -79,6 +79,10 @@
       <Project>{1e68112c-0a60-44c3-8309-4df5120ddac0}</Project>
       <Name>Chapter4 - Factory Method</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chapter5 - Singleton\Chapter5 - Singleton.csproj">
+      <Project>{902f5846-9d63-4c12-9024-05031470d009}</Project>
+      <Name>Chapter5 - Singleton</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
