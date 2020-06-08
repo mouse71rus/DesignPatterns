@@ -5,7 +5,10 @@ using System.Text;
 
 namespace Chapter7.Adapter
 {
-    interface IIterator
+    public interface IIterator
     {
+        bool HasNext();
+        object Next();
+        void remove(object el);
     }
 }
