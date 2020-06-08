@@ -30,6 +30,24 @@ namespace Chapter7
             Console.WriteLine("The TurkeyAdapter says..");
             TestMethod(adapter);
 
+            Console.WriteLine();
+            Console.WriteLine("Facade");
+            Console.WriteLine();
+
+            Facade.HomeTheaterFacade homeTheater = new Facade.HomeTheaterFacade(
+                new Facade.Amplifier(),
+                new Facade.Tuner(),
+                new Facade.DvdPlayer(),
+                new Facade.CdPlayer(),
+                new Facade.Projector(),
+                new Facade.TheaterLights(),
+                new Facade.Screen(),
+                new Facade.PopcornPopper()
+            );
+
+            homeTheater.WatchMovie("Bright");
+            homeTheater.EndMovie();
+
             Console.ReadKey();
         }
 
