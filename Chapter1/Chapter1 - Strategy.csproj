@@ -83,6 +83,10 @@
       <Project>{902f5846-9d63-4c12-9024-05031470d009}</Project>
       <Name>Chapter5 - Singleton</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chapter6 - Command\Chapter6 - Command.csproj">
+      <Project>{c5d53e89-716d-4fe9-8bf0-1af109163d9e}</Project>
+      <Name>Chapter6 - Command</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
