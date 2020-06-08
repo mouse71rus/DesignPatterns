@@ -59,6 +59,10 @@ namespace Chapter1
 
             // Chapter6 - Command
             Chapter6.Program.Main(args);
+
+
+            // Chapter7 - Adapter And Facade
+            Chapter7.Program.Main(args);
         }
     }
 }

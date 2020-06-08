@@ -87,6 +87,10 @@
       <Project>{c5d53e89-716d-4fe9-8bf0-1af109163d9e}</Project>
       <Name>Chapter6 - Command</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chapter7 - Adapter And Facade\Chapter7 - Adapter And Facade.csproj">
+      <Project>{e2c958ba-c041-4279-a033-740068abf72b}</Project>
+      <Name>Chapter7 - Adapter And Facade</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
