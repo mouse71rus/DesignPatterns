@@ -44,10 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Good\CeilingFan.cs" />
+    <Compile Include="Good\CeilingFanHighCommand.cs" />
+    <Compile Include="Good\CeilingFanOffCommand.cs" />
     <Compile Include="Good\ICommand.cs" />
     <Compile Include="Good\Light.cs" />
     <Compile Include="Good\LightOffCommand.cs" />
     <Compile Include="Good\LightOnCommand.cs" />
+    <Compile Include="Good\MacroCommand.cs" />
     <Compile Include="Good\NoCommand.cs" />
     <Compile Include="Good\RemoteControl.cs" />
     <Compile Include="Good\SimpleRemoteControl.cs" />
