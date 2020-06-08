@@ -5,23 +5,23 @@ using System.Text;
 
 namespace Chapter6.Good
 {
-    public class LightOnCommand : ICommand
+    public class LightOffCommand : ICommand
     {
         private Light light;
 
-        public LightOnCommand(Light light)
+        public LightOffCommand(Light light)
         {
             this.light = light;
         }
 
         public void Execute()
         {
-            light.On();
+            light.Off();
         }
 
         public void Undo()
         {
-            light.Off();
+            light.On();
         }
     }
 }

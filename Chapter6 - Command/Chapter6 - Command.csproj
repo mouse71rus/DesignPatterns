@@ -46,8 +46,14 @@
   <ItemGroup>
     <Compile Include="Good\ICommand.cs" />
     <Compile Include="Good\Light.cs" />
+    <Compile Include="Good\LightOffCommand.cs" />
     <Compile Include="Good\LightOnCommand.cs" />
+    <Compile Include="Good\NoCommand.cs" />
+    <Compile Include="Good\RemoteControl.cs" />
     <Compile Include="Good\SimpleRemoteControl.cs" />
+    <Compile Include="Good\Stereo.cs" />
+    <Compile Include="Good\StereoOffWithCDCommand.cs" />
+    <Compile Include="Good\StereoOnWithCDCommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
