@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Chapter2;
-using Chapter3;
-using Chapter4;
 namespace Chapter1
 {
     class Program
@@ -63,6 +60,9 @@ namespace Chapter1
 
             // Chapter7 - Adapter And Facade
             Chapter7.Program.Main(args);
+
+            // Chapter8 - Template Method
+            Chapter8.Program.Main(args);
         }
     }
 }

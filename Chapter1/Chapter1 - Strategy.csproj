@@ -91,6 +91,10 @@
       <Project>{e2c958ba-c041-4279-a033-740068abf72b}</Project>
       <Name>Chapter7 - Adapter And Facade</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chapter8 - Template Method\Chapter8 - Template Method.csproj">
+      <Project>{66b5f01a-f809-4494-b39a-7452c6d072bd}</Project>
+      <Name>Chapter8 - Template Method</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

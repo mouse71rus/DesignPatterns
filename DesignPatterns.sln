@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter6 - Command", "Chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter7 - Adapter And Facade", "Chapter7 - Adapter And Facade\Chapter7 - Adapter And Facade.csproj", "{E2C958BA-C041-4279-A033-740068ABF72B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter8 - Template Method", "Chapter8 - Template Method\Chapter8 - Template Method.csproj", "{66B5F01A-F809-4494-B39A-7452C6D072BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{E2C958BA-C041-4279-A033-740068ABF72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2C958BA-C041-4279-A033-740068ABF72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2C958BA-C041-4279-A033-740068ABF72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B5F01A-F809-4494-B39A-7452C6D072BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B5F01A-F809-4494-B39A-7452C6D072BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B5F01A-F809-4494-B39A-7452C6D072BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B5F01A-F809-4494-B39A-7452C6D072BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
