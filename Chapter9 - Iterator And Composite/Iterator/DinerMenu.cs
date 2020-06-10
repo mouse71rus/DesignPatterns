@@ -45,9 +45,9 @@ namespace Chapter9.Iterator
             }
         }
 
-        public MenuItem[] GetMenuItems()
+        public IIterator CreateIterator()
         {
-            return menuItems;
+            return new DinerMenuIterator(menuItems);
         }
     }
 

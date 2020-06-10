@@ -18,21 +18,32 @@ namespace Chapter9.Iterator
 
         public void PrintMenu()
         {
-            List<MenuItem> menu = pancakeHouseMenu.GetMenuItems();
-            MenuItem[] menu2 = dinerMenu.GetMenuItems();
+            Console.WriteLine();
+            Console.WriteLine("Menu");
+            Console.WriteLine("--------------");
+            Console.WriteLine("BREAKFAST");
+            Console.WriteLine();
 
-            for (int i = 0; i < menu.Count(); i++)
-            {
-                Console.WriteLine(menu[i].GetName());
-                Console.WriteLine("\t\t" + menu[i].GetPrice());
-                Console.WriteLine("\t" + menu[i].GetDescription());
-            }
 
-            for (int i = 0; i < menu2.Length; i++)
+            IIterator menu = pancakeHouseMenu.CreateIterator();
+            PrintMenu(menu);
+
+            Console.WriteLine();
+            Console.WriteLine("LUNCH");
+            Console.WriteLine();
+
+            IIterator menu2 = dinerMenu.CreateIterator();
+            PrintMenu(menu2);            
+        }
+
+        private void PrintMenu(IIterator iterator)
+        {
+            while(iterator.HasNext())
             {
-                Console.WriteLine(menu2[i].GetName());
-                Console.WriteLine("\t\t" + menu2[i].GetPrice());
-                Console.WriteLine("\t" + menu2[i].GetDescription());
+                MenuItem item = (MenuItem)iterator.Next();
+                Console.WriteLine(item.GetName());
+                Console.WriteLine("\t\t" + item.GetPrice());
+                Console.WriteLine("\t" + item.GetDescription());
             }
         }
     }

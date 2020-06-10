@@ -13,7 +13,8 @@ namespace Chapter9
             Console.WriteLine("Chapter9 - Iterator And Composite");
             Console.WriteLine();
 
-            
+            Iterator.Waitress waitress = new Iterator.Waitress(new Iterator.PancakeHouseMenu(), new Iterator.DinerMenu());
+            waitress.PrintMenu();
 
             Console.ReadKey();
         }

@@ -24,9 +24,9 @@ namespace Chapter9.Iterator
             menuItems.Add(new MenuItem(Name, Description, Vegetarian, Price));
         }
 
-        public List<MenuItem> GetMenuItems()
+        public IIterator CreateIterator()
         {
-            return menuItems;
+            return new PancakeHouseMenuIterator(menuItems);
         }
     }
 }

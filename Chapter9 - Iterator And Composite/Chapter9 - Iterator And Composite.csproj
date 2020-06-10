@@ -45,8 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Iterator\DinerMenu.cs" />
+    <Compile Include="Iterator\DinerMenuIterator.cs" />
+    <Compile Include="Iterator\IIterator.cs" />
     <Compile Include="Iterator\MenuItem.cs" />
     <Compile Include="Iterator\PancakeHouseMenu.cs" />
+    <Compile Include="Iterator\PancakeHouseMenuIterator.cs" />
+    <Compile Include="Iterator\Waitress.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
