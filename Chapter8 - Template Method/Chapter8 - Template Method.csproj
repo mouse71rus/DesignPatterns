@@ -48,6 +48,7 @@
     <Compile Include="Bad\Tea.cs" />
     <Compile Include="Good\CaffeineBeverage.cs" />
     <Compile Include="Good\Coffee.cs" />
+    <Compile Include="Good\Duck.cs" />
     <Compile Include="Good\Tea.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
