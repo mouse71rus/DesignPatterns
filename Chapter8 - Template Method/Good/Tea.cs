@@ -16,5 +16,15 @@ namespace Chapter8.Good
         {
             Console.WriteLine("Steeping the tea");
         }
+
+        public override bool CustomerWantsCondiments()
+        {
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Question:");
+            Console.Write("Would you like a Lemon? (y/n): ");
+            char answer = (char)Console.Read();
+            Console.WriteLine("------------------------");
+            return (answer == 'y') ? true : false;
+        }
     }
 }

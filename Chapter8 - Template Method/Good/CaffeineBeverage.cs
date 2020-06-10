@@ -12,7 +12,15 @@ namespace Chapter8.Good
             BoilWater();
             Brew();
             PourInCup();
-            AddCondiments();
+            if (CustomerWantsCondiments())
+            {
+                AddCondiments();
+            }
+        }
+
+        public virtual bool CustomerWantsCondiments()
+        {
+            return true;
         }
 
         public abstract void AddCondiments();
