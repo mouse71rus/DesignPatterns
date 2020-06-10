@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter7 - Adapter And Faca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter8 - Template Method", "Chapter8 - Template Method\Chapter8 - Template Method.csproj", "{66B5F01A-F809-4494-B39A-7452C6D072BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter9 - Iterator And Composite", "Chapter9 - Iterator And Composite\Chapter9 - Iterator And Composite.csproj", "{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{66B5F01A-F809-4494-B39A-7452C6D072BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B5F01A-F809-4494-B39A-7452C6D072BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B5F01A-F809-4494-B39A-7452C6D072BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

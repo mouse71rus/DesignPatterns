@@ -61,8 +61,13 @@ namespace Chapter1
             // Chapter7 - Adapter And Facade
             Chapter7.Program.Main(args);
 
+
             // Chapter8 - Template Method
             Chapter8.Program.Main(args);
+
+
+            // Chapter9 - Iterator And Composite
+            Chapter9.Program.Main(args);
         }
     }
 }
