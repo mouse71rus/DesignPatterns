@@ -44,12 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bad\Coffee.cs" />
+    <Compile Include="Bad\Tea.cs" />
+    <Compile Include="Good\CaffeineBeverage.cs" />
+    <Compile Include="Good\Coffee.cs" />
+    <Compile Include="Good\Tea.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Bad\" />
-    <Folder Include="Good\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

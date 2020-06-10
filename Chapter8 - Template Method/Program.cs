@@ -13,7 +13,14 @@ namespace Chapter8
             Console.WriteLine("Chapter8 - Template Method");
             Console.WriteLine();
 
-            
+            Good.Tea tea = new Good.Tea();
+            Console.WriteLine("Tea");
+            tea.PrepareRecipe();
+            Console.WriteLine();
+
+            Good.Coffee coffee = new Good.Coffee();
+            Console.WriteLine("Coffee");
+            coffee.PrepareRecipe();
 
             Console.ReadKey();
         }
