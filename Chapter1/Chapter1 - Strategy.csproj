@@ -67,6 +67,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Chapter10 - State\Chapter10 - State.csproj">
+      <Project>{1234d776-efd6-4879-a552-2ffa8f829e2f}</Project>
+      <Name>Chapter10 - State</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Chapter2 - Observer\Chapter2 - Observer.csproj">
       <Project>{b6306511-052a-4f6f-b589-d5dd1397883e}</Project>
       <Name>Chapter2 - Observer</Name>

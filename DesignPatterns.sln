@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter1 - Strategy", "Chapter1\Chapter1 - Strategy.csproj", "{6FF22945-4203-4A7D-8FAB-3B358D039585}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter8 - Template Method", "Chapter8 - Template Method\Chapter8 - Template Method.csproj", "{66B5F01A-F809-4494-B39A-7452C6D072BD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter9 - Iterator And Composite", "Chapter9 - Iterator And Composite\Chapter9 - Iterator And Composite.csproj", "{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter10 - State", "Chapter10 - State\Chapter10 - State.csproj", "{1234D776-EFD6-4879-A552-2FFA8F829E2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1234D776-EFD6-4879-A552-2FFA8F829E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1234D776-EFD6-4879-A552-2FFA8F829E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1234D776-EFD6-4879-A552-2FFA8F829E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1234D776-EFD6-4879-A552-2FFA8F829E2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
