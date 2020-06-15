@@ -26,6 +26,7 @@ namespace Chapter10.Good
         public void Refiil(int count)
         {
             this.Count += count;
+            state = NO_QUARTER;
         }
 
         public GumballMachine(int count)
