@@ -1,12 +1,15 @@
-﻿namespace Chapter10.Good
+﻿using System;
+
+namespace Chapter10.Good
 {
     internal class HasQuarterState : IState
     {
         private GumballMachine gumballMachine;
-
+        private Random randomWinner;
         public HasQuarterState(GumballMachine gumballMachine)
         {
             this.gumballMachine = gumballMachine;
+            randomWinner = new Random();
         }
 
         public void Dispense()
@@ -28,7 +31,15 @@
         public void TurnCrank()
         {
             System.Console.WriteLine("You turned...");
-            gumballMachine.SetState(gumballMachine.GetSoldState());
+            int winner = randomWinner.Next(10);
+            if (winner == 0 && gumballMachine.GetCount() > 1)
+            {
+                gumballMachine.SetState(gumballMachine.GetWinnerState());
+            }
+            else
+            {
+                gumballMachine.SetState(gumballMachine.GetSoldState());
+            }
         }
     }
 }

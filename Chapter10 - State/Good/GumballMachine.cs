@@ -7,12 +7,13 @@ namespace Chapter10.Good
 {
     public class GumballMachine
     {
-
         private IState SOLD_OUT; // Шариков нет
         private IState NO_QUARTER; // Нет монетки
         private IState HAS_QUARTER; // Есть монетка
         private IState SOLD; // Шарик продан
-        
+        private IState WINNER; // Выиграл дополнительный шарик
+
+
 
         private IState state;
         private int Count;
@@ -30,7 +31,7 @@ namespace Chapter10.Good
             NO_QUARTER = new NoQuarterState(this);
             HAS_QUARTER = new HasQuarterState(this);
             SOLD = new SoldState(this);
-            
+            WINNER = new WinnerState(this);
 
             this.Count = count;
             if (this.Count > 0)
@@ -42,7 +43,10 @@ namespace Chapter10.Good
                 state = SOLD_OUT;
             }
         }
-
+        public IState GetWinnerState()
+        {
+            return WINNER;
+        }
         public IState GetSoldOutState()
         {
             return SOLD_OUT;

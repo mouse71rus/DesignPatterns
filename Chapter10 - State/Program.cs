@@ -50,7 +50,7 @@ namespace Chapter10
             Console.WriteLine();
             Console.WriteLine("Gumball Machine");
 
-            Good.GumballMachine gumballMachine_NEW = new Good.GumballMachine(5);
+            Good.GumballMachine gumballMachine_NEW = new Good.GumballMachine(15);
 
             
             gumballMachine_NEW.InsertQuarter();
@@ -61,6 +61,15 @@ namespace Chapter10
 
             gumballMachine_NEW.InsertQuarter();
             gumballMachine_NEW.TurnCrank();
+
+            for (int i = 0; i < 15; i++)
+            {
+                gumballMachine_NEW.InsertQuarter();
+                gumballMachine_NEW.TurnCrank();
+            }
+            
+
+            
 
             Console.WriteLine();
 

@@ -51,6 +51,7 @@
     <Compile Include="Good\NoQuarterState.cs" />
     <Compile Include="Good\SoldOutState.cs" />
     <Compile Include="Good\SoldState.cs" />
+    <Compile Include="Good\WinnerState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
