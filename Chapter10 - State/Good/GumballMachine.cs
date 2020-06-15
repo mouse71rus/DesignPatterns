@@ -23,7 +23,10 @@ namespace Chapter10.Good
             return Count;
         }
 
-        
+        public void Refiil(int count)
+        {
+            this.Count += count;
+        }
 
         public GumballMachine(int count)
         {
