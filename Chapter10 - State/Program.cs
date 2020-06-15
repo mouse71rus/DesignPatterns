@@ -46,6 +46,24 @@ namespace Chapter10
 
             Console.WriteLine(gumballMachine);
 
+
+            Console.WriteLine();
+            Console.WriteLine("Gumball Machine");
+
+            Good.GumballMachine gumballMachine_NEW = new Good.GumballMachine(5);
+
+            
+            gumballMachine_NEW.InsertQuarter();
+                 
+            gumballMachine_NEW.EjectQuarter();
+                
+            gumballMachine_NEW.TurnCrank();
+
+            gumballMachine_NEW.InsertQuarter();
+            gumballMachine_NEW.TurnCrank();
+
+            Console.WriteLine();
+
             Console.ReadKey();
         }
     }

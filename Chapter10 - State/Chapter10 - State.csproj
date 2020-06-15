@@ -45,11 +45,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bad\GumballMachine.cs" />
+    <Compile Include="Good\GumballMachine.cs" />
+    <Compile Include="Good\HasQuarterState.cs" />
+    <Compile Include="Good\IState.cs" />
+    <Compile Include="Good\NoQuarterState.cs" />
+    <Compile Include="Good\SoldOutState.cs" />
+    <Compile Include="Good\SoldState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Good\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
