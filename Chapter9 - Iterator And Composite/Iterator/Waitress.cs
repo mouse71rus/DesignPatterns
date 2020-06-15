@@ -7,13 +7,11 @@ namespace Chapter9.Iterator
 {
     public class Waitress
     {
-        private PancakeHouseMenu pancakeHouseMenu;
-        private DinerMenu dinerMenu;
+        private List<IMenu> menus;
 
-        public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu)
+        public Waitress(List<IMenu> menus)
         {
-            this.pancakeHouseMenu = pancakeHouseMenu;
-            this.dinerMenu = dinerMenu;
+            this.menus = menus;
         }
 
         public void PrintMenu()
@@ -21,19 +19,17 @@ namespace Chapter9.Iterator
             Console.WriteLine();
             Console.WriteLine("Menu");
             Console.WriteLine("--------------");
-            Console.WriteLine("BREAKFAST");
             Console.WriteLine();
-
-
-            IIterator menu = pancakeHouseMenu.CreateIterator();
-            PrintMenu(menu);
-
-            Console.WriteLine();
-            Console.WriteLine("LUNCH");
-            Console.WriteLine();
-
-            IIterator menu2 = dinerMenu.CreateIterator();
-            PrintMenu(menu2);            
+            foreach (var item in menus)
+            {
+                Console.WriteLine("^^^^^^^^^^^");
+                Console.WriteLine(item.GetTitle());
+                Console.WriteLine("***********");
+                Console.WriteLine();
+                IIterator menu = item.CreateIterator();
+                PrintMenu(menu);
+                Console.WriteLine();
+            }         
         }
 
         private void PrintMenu(IIterator iterator)

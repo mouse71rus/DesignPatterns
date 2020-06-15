@@ -5,14 +5,17 @@ using System.Text;
 
 namespace Chapter9.Iterator
 {
-    public class DinerMenu
+    public class DinerMenu : IMenu
     {
         private readonly int MAX_ITEMS = 6;
         private int numberOfItems = 0;
         private MenuItem[] menuItems;
+        private string title;
 
         public DinerMenu()
         {
+            title = "Diner Menu";
+
             menuItems = new MenuItem[MAX_ITEMS];
 
             AddItem("Vegetarian BLT",
@@ -48,6 +51,11 @@ namespace Chapter9.Iterator
         public IIterator CreateIterator()
         {
             return new DinerMenuIterator(menuItems);
+        }
+
+        public string GetTitle()
+        {
+            return title;
         }
     }
 
