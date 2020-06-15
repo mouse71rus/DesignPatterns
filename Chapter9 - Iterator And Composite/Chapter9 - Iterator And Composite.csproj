@@ -44,6 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Composite\Menu.cs" />
+    <Compile Include="Composite\MenuComponent.cs" />
+    <Compile Include="Composite\MenuItem.cs" />
+    <Compile Include="Composite\Waitress.cs" />
     <Compile Include="Iterator\DinerMenu.cs" />
     <Compile Include="Iterator\DinerMenuIterator.cs" />
     <Compile Include="Iterator\IIterator.cs" />
@@ -55,8 +59,6 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Composite\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
