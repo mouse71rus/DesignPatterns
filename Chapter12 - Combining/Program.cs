@@ -26,6 +26,7 @@ namespace Chapter12
             IQuackable redheadDuck = new RedheadDuck();
             IQuackable duckCall = new DuckCall();
             IQuackable rubberDuck = new RubberDuck();
+            IQuackable goose = new Adapter.GooseAdapter(new Adapter.Goose());
 
             Console.WriteLine("Duck simulator:");
 
@@ -33,6 +34,7 @@ namespace Chapter12
             Simulate(redheadDuck);
             Simulate(duckCall);
             Simulate(rubberDuck);
+            Simulate(goose);
         }
 
         private static void Simulate(IQuackable duck)
