@@ -22,10 +22,10 @@ namespace Chapter12
 
         private static void Simulate()
         {
-            IQuackable mallardDuck = new MallardDuck();
-            IQuackable redheadDuck = new RedheadDuck();
-            IQuackable duckCall = new DuckCall();
-            IQuackable rubberDuck = new RubberDuck();
+            IQuackable mallardDuck = new Decorator.QuackCounter(new MallardDuck());
+            IQuackable redheadDuck = new Decorator.QuackCounter(new RedheadDuck());
+            IQuackable duckCall = new Decorator.QuackCounter(new DuckCall());
+            IQuackable rubberDuck = new Decorator.QuackCounter(new RubberDuck());
             IQuackable goose = new Adapter.GooseAdapter(new Adapter.Goose());
 
             Console.WriteLine("Duck simulator:");
@@ -35,6 +35,8 @@ namespace Chapter12
             Simulate(duckCall);
             Simulate(rubberDuck);
             Simulate(goose);
+
+            Console.WriteLine($"\nThe ducks quacked {Decorator.QuackCounter.GetCount()} times");
         }
 
         private static void Simulate(IQuackable duck)

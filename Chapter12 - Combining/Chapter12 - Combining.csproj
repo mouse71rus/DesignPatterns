@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Adapter\Goose.cs" />
     <Compile Include="Adapter\GooseAdapter.cs" />
+    <Compile Include="Decorator\QuackCounter.cs" />
     <Compile Include="DuckCall.cs" />
     <Compile Include="IQuackable.cs" />
     <Compile Include="MallardDuck.cs" />
