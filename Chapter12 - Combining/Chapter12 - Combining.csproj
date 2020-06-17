@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="AbstractFactory\CountingDuckFactory.cs" />
+    <Compile Include="AbstractFactory\DuckFactory.cs" />
     <Compile Include="Adapter\Goose.cs" />
     <Compile Include="Adapter\GooseAdapter.cs" />
     <Compile Include="Decorator\QuackCounter.cs" />

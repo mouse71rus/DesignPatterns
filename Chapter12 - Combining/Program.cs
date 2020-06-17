@@ -13,20 +13,20 @@ namespace Chapter12
             Console.WriteLine();
             Console.WriteLine("Chapter12 - Pattern Of Patterns - Combining");
             Console.WriteLine();
-
-            Simulate();
+            AbstractFactory.AbstractFactory duckFactory = new AbstractFactory.CountingDuckFactory();
+            Simulate(duckFactory);
             
 
             Console.ReadKey();
         }
 
-        private static void Simulate()
+        private static void Simulate(AbstractFactory.AbstractFactory duckFactory)
         {
-            IQuackable mallardDuck = new Decorator.QuackCounter(new MallardDuck());
-            IQuackable redheadDuck = new Decorator.QuackCounter(new RedheadDuck());
-            IQuackable duckCall = new Decorator.QuackCounter(new DuckCall());
-            IQuackable rubberDuck = new Decorator.QuackCounter(new RubberDuck());
-            IQuackable goose = new Adapter.GooseAdapter(new Adapter.Goose());
+            IQuackable mallardDuck = duckFactory.CreateMallardDuck();
+            IQuackable redheadDuck = duckFactory.CreateRedheadDuck();
+            IQuackable duckCall = duckFactory.CreateDuckCall();
+            IQuackable rubberDuck = duckFactory.CreateRubberDuck();
+            IQuackable goose = duckFactory.CreateGoose();
 
             Console.WriteLine("Duck simulator:");
 
