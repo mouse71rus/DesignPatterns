@@ -68,6 +68,10 @@ namespace Chapter1
 
             // Chapter9 - Iterator And Composite
             Chapter9.Program.Main(args);
+
+
+            // Chapter10 - State
+            Chapter10.Program.Main(args);
         }
     }
 }
