@@ -52,6 +52,12 @@ namespace Chapter12
             Console.WriteLine();
             Simulate(flockOfMallardDuck);
 
+
+            Console.WriteLine();
+            Observer.Quackologist quackologist = new Observer.Quackologist();
+            flockOfDucks.registerObserver(quackologist);
+            Simulate(flockOfDucks);
+
             Console.WriteLine($"\nThe ducks quacked {Decorator.QuackCounter.GetCount()} times");
         }
 

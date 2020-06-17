@@ -5,8 +5,7 @@ using System.Text;
 
 namespace Chapter12
 {
-    public partial interface IQuackable
+    public partial interface IQuackable : Observer.IQuackObservable
     {
-        void Quack();
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Chapter12.Observer;
 
 namespace Chapter12.IteratorAndComposite
 {
@@ -19,6 +20,8 @@ namespace Chapter12.IteratorAndComposite
             quackers.Add(quacker);
         }
 
+        public void notifyObservers() { }
+
         public void Quack()
         {
             var iterator = quackers.GetEnumerator();
@@ -26,6 +29,16 @@ namespace Chapter12.IteratorAndComposite
             {
                 IQuackable quacker = iterator.Current;
                 quacker.Quack();
+            }
+        }
+
+        public void registerObserver(IObserver observer)
+        {
+            var iterator = quackers.GetEnumerator();
+            while (iterator.MoveNext())
+            {
+                IQuackable quacker = iterator.Current;
+                quacker.registerObserver(observer);
             }
         }
     }

@@ -54,6 +54,11 @@
     <Compile Include="IQuackable.cs" />
     <Compile Include="IteratorAndComposite\Flock.cs" />
     <Compile Include="MallardDuck.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\IQuackable.cs" />
+    <Compile Include="Observer\IQuackObservable.cs" />
+    <Compile Include="Observer\Observable.cs" />
+    <Compile Include="Observer\Quackologist.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RedheadDuck.cs" />
