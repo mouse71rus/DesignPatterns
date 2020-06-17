@@ -9,6 +9,7 @@ namespace Chapter10
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Chapter10 - State");
             Console.WriteLine();

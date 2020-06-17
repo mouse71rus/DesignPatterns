@@ -9,6 +9,7 @@ namespace Chapter6
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Chapter6 - Command");
             Console.WriteLine();

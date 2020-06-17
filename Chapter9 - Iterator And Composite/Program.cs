@@ -9,6 +9,7 @@ namespace Chapter9
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Chapter9 - Iterator And Composite");
             Console.WriteLine();

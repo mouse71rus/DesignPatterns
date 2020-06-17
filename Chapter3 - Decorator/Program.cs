@@ -9,6 +9,7 @@ namespace Chapter3
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Chapter3 - Decorator");
             Console.WriteLine();

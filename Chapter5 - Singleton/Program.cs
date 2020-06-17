@@ -9,6 +9,7 @@ namespace Chapter5
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Chapter5 - Singleton");
             Console.WriteLine();

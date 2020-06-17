@@ -9,6 +9,7 @@ namespace Chapter2
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Chapter2 - Observer");
             Console.WriteLine();

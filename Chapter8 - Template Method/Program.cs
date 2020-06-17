@@ -10,6 +10,7 @@ namespace Chapter8
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Chapter8 - Template Method");
             Console.WriteLine();

@@ -9,6 +9,7 @@ namespace Chapter4
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine();
             Console.WriteLine("Chapter4 - Factory Method");
             Console.WriteLine();
