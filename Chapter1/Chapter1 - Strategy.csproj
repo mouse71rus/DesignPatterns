@@ -75,6 +75,10 @@
       <Project>{d68e232a-3a52-44d6-b66f-e76a7bf4e096}</Project>
       <Name>Chapter12 - Combining</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chapter12 - MVC\Chapter12 - MVC.csproj">
+      <Project>{14b233f4-248d-4572-9e8d-7709a982c3cf}</Project>
+      <Name>Chapter12 - MVC</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Chapter2 - Observer\Chapter2 - Observer.csproj">
       <Project>{b6306511-052a-4f6f-b589-d5dd1397883e}</Project>
       <Name>Chapter2 - Observer</Name>

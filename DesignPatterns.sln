@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter12 - Pattern Of Patt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter12 - Combining", "Chapter12 - Combining\Chapter12 - Combining.csproj", "{D68E232A-3A52-44D6-B66F-E76A7BF4E096}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter12 - MVC", "Chapter12 - MVC\Chapter12 - MVC.csproj", "{14B233F4-248D-4572-9E8D-7709A982C3CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,12 +79,17 @@ Global
 		{D68E232A-3A52-44D6-B66F-E76A7BF4E096}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D68E232A-3A52-44D6-B66F-E76A7BF4E096}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D68E232A-3A52-44D6-B66F-E76A7BF4E096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B233F4-248D-4572-9E8D-7709A982C3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B233F4-248D-4572-9E8D-7709A982C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B233F4-248D-4572-9E8D-7709A982C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B233F4-248D-4572-9E8D-7709A982C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D68E232A-3A52-44D6-B66F-E76A7BF4E096} = {24604B86-9F6C-4C00-B236-4B2ABE37CFC8}
+		{14B233F4-248D-4572-9E8D-7709A982C3CF} = {24604B86-9F6C-4C00-B236-4B2ABE37CFC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3F7D745-744F-46B2-A372-97AA49DD0F62}

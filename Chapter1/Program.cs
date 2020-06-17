@@ -76,6 +76,10 @@ namespace Chapter1
 
             // Chapter12 - Pattern Of Patterns - Combining
             Chapter12.Program.Main(args);
+
+
+            // Chapter12 - Pattern Of Patterns - MVC
+            Chapter12.MVC.Program.Main();
         }
     }
 }
