@@ -52,11 +52,13 @@
     <Compile Include="Decorator\QuackCounter.cs" />
     <Compile Include="DuckCall.cs" />
     <Compile Include="IQuackable.cs" />
+    <Compile Include="IteratorAndComposite\Flock.cs" />
     <Compile Include="MallardDuck.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RedheadDuck.cs" />
     <Compile Include="RubberDuck.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

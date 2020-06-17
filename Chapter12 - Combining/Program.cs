@@ -28,13 +28,29 @@ namespace Chapter12
             IQuackable rubberDuck = duckFactory.CreateRubberDuck();
             IQuackable goose = duckFactory.CreateGoose();
 
+            IteratorAndComposite.Flock flockOfDucks = new IteratorAndComposite.Flock();
+
+            flockOfDucks.Add(redheadDuck);
+            flockOfDucks.Add(duckCall);
+            flockOfDucks.Add(rubberDuck);
+            flockOfDucks.Add(goose);
+
+            IteratorAndComposite.Flock flockOfMallardDuck = new IteratorAndComposite.Flock();
+            var mallardOne = duckFactory.CreateMallardDuck();
+            var mallardTwo = duckFactory.CreateMallardDuck();
+            var mallardThree = duckFactory.CreateMallardDuck();
+            var mallardFour = duckFactory.CreateMallardDuck();
+            flockOfMallardDuck.Add(mallardOne);
+            flockOfMallardDuck.Add(mallardTwo);
+            flockOfMallardDuck.Add(mallardThree);
+            flockOfMallardDuck.Add(mallardFour);
+            flockOfDucks.Add(flockOfMallardDuck);
+
             Console.WriteLine("Duck simulator:");
 
-            Simulate(mallardDuck);
-            Simulate(redheadDuck);
-            Simulate(duckCall);
-            Simulate(rubberDuck);
-            Simulate(goose);
+            Simulate(flockOfDucks);
+            Console.WriteLine();
+            Simulate(flockOfMallardDuck);
 
             Console.WriteLine($"\nThe ducks quacked {Decorator.QuackCounter.GetCount()} times");
         }
