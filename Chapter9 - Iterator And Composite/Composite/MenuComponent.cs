@@ -41,5 +41,7 @@ namespace Chapter9.Composite
         {
             throw new NotSupportedException();
         }
+
+        public abstract IIterator<MenuComponent> CreateIterator();
     }
 }

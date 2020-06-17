@@ -10,6 +10,7 @@ namespace Chapter9.Composite
         private string Name;
         private string Description;
         private List<MenuComponent> menuComponents;
+        private IIterator<MenuComponent> iterator;
 
         public Menu(string name, string description)
         {
@@ -58,6 +59,16 @@ namespace Chapter9.Composite
                 MenuComponent component = enumerator.Current;
                 component.Print();
             }
+        }
+
+        public override IIterator<MenuComponent> CreateIterator()
+        {
+            if (iterator == null)
+            {
+                var enumerator = new AdapterEnumerator(menuComponents.GetEnumerator());
+                iterator = new CompositIterator(enumerator);
+            }
+            return iterator;
         }
     }
 }

@@ -50,5 +50,10 @@ namespace Chapter9.Composite
             Console.WriteLine("\t\t" + Price);
             Console.WriteLine("\t" + Description);
         }
+
+        public override IIterator<MenuComponent> CreateIterator()
+        {
+            return new NullIterator();
+        }
     }
 }

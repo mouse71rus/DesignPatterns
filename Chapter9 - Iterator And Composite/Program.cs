@@ -56,11 +56,13 @@ namespace Chapter9
 
             DinerMenu.Add(DessertMenu);
 
+            DessertMenu.Add(new Composite.MenuItem("Sausage pie", "Sausage pie with a sausage", false, 3.79));
             DessertMenu.Add(new Composite.MenuItem("Apple pie", "Apple pie with a flakey crust, topped with vanilla icecream", true, 1.59));
 
             Composite.Waitress waitress_new = new Composite.Waitress(allMenus);
 
             waitress_new.PrintMenu();
+            //waitress_new.PrintVegetarianMenu(); // I have a problem here. NullReferenceException :(
 
             Console.ReadKey();
         }
