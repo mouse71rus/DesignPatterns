@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29920.165
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter1 - Strategy", "Chapter1\Chapter1 - Strategy.csproj", "{6FF22945-4203-4A7D-8FAB-3B358D039585}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter9 - Iterator And Composite", "Chapter9 - Iterator And Composite\Chapter9 - Iterator And Composite.csproj", "{D4B2EAB0-B7B8-4298-A1D0-F593FA08DF40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter10 - State", "Chapter10 - State\Chapter10 - State.csproj", "{1234D776-EFD6-4879-A552-2FFA8F829E2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter12 - Pattern Of Patterns", "Chapter12 - Pattern Of Patterns", "{24604B86-9F6C-4C00-B236-4B2ABE37CFC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter12 - Combining", "Chapter12 - Combining\Chapter12 - Combining.csproj", "{D68E232A-3A52-44D6-B66F-E76A7BF4E096}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,9 +73,16 @@ Global
 		{1234D776-EFD6-4879-A552-2FFA8F829E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1234D776-EFD6-4879-A552-2FFA8F829E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1234D776-EFD6-4879-A552-2FFA8F829E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D68E232A-3A52-44D6-B66F-E76A7BF4E096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D68E232A-3A52-44D6-B66F-E76A7BF4E096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D68E232A-3A52-44D6-B66F-E76A7BF4E096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D68E232A-3A52-44D6-B66F-E76A7BF4E096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D68E232A-3A52-44D6-B66F-E76A7BF4E096} = {24604B86-9F6C-4C00-B236-4B2ABE37CFC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3F7D745-744F-46B2-A372-97AA49DD0F62}

@@ -72,6 +72,10 @@ namespace Chapter1
 
             // Chapter10 - State
             Chapter10.Program.Main(args);
+
+
+            // Chapter12 - Pattern Of Patterns - Combining
+            Chapter12.Program.Main(args);
         }
     }
 }

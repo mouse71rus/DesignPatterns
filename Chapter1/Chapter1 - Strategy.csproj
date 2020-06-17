@@ -71,6 +71,10 @@
       <Project>{1234d776-efd6-4879-a552-2ffa8f829e2f}</Project>
       <Name>Chapter10 - State</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chapter12 - Combining\Chapter12 - Combining.csproj">
+      <Project>{d68e232a-3a52-44d6-b66f-e76a7bf4e096}</Project>
+      <Name>Chapter12 - Combining</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Chapter2 - Observer\Chapter2 - Observer.csproj">
       <Project>{b6306511-052a-4f6f-b589-d5dd1397883e}</Project>
       <Name>Chapter2 - Observer</Name>
