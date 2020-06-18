@@ -13,9 +13,8 @@ namespace Chapter12.MVC
         [STAThread]
         public static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            IBeatModelInterface beatModel = new BeatModel();
+            IController controller = new BeatController(beatModel);
         }
     }
 }
