@@ -74,6 +74,10 @@ namespace Chapter1
             Chapter10.Program.Main(args);
 
 
+            // Chapter11 - Proxy
+            Chapter11.Program.Main(args);
+
+
             // Chapter12 - Pattern Of Patterns - Combining
             Chapter12.Program.Main(args);
 

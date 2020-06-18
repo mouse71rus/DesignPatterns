@@ -74,6 +74,10 @@
       <Project>{1234d776-efd6-4879-a552-2ffa8f829e2f}</Project>
       <Name>Chapter10 - State</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chapter11 - Proxy\Chapter11 - Proxy.csproj">
+      <Project>{2624aacb-1a21-4d6d-9090-5c13c9ce8ef4}</Project>
+      <Name>Chapter11 - Proxy</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Chapter12 - Combining\Chapter12 - Combining.csproj">
       <Project>{d68e232a-3a52-44d6-b66f-e76a7bf4e096}</Project>
       <Name>Chapter12 - Combining</Name>

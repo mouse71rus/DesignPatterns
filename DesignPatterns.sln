@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter12 - Combining", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter12 - MVC", "Chapter12 - MVC\Chapter12 - MVC.csproj", "{14B233F4-248D-4572-9E8D-7709A982C3CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter11 - Proxy", "Chapter11 - Proxy\Chapter11 - Proxy.csproj", "{2624AACB-1A21-4D6D-9090-5C13C9CE8EF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{14B233F4-248D-4572-9E8D-7709A982C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14B233F4-248D-4572-9E8D-7709A982C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14B233F4-248D-4572-9E8D-7709A982C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2624AACB-1A21-4D6D-9090-5C13C9CE8EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2624AACB-1A21-4D6D-9090-5C13C9CE8EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2624AACB-1A21-4D6D-9090-5C13C9CE8EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2624AACB-1A21-4D6D-9090-5C13C9CE8EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
