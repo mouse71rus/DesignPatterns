@@ -45,8 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Example\BookStore.cs" />
+    <Compile Include="Example\BookStoreProxy.cs" />
+    <Compile Include="Example\IBook.cs" />
+    <Compile Include="Example\Page.cs" />
+    <Compile Include="Example\PageContext.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simple\Client.cs" />
+    <Compile Include="Simple\ISubject.cs" />
+    <Compile Include="Simple\Proxy.cs" />
+    <Compile Include="Simple\RealSubject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
