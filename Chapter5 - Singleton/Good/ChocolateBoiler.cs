@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 
 namespace Chapter5.Good
 {
@@ -10,8 +11,8 @@ namespace Chapter5.Good
         private bool Empty;
         private bool Boiled;
 
-        private static ChocolateBoiler Instance;
-
+        private static volatile ChocolateBoiler Instance;
+        private static object syncRoot = new Object();
         private ChocolateBoiler()
         {
             Empty = true;
@@ -20,7 +21,28 @@ namespace Chapter5.Good
 
         public static ChocolateBoiler GetInstance()
         {
-            return Instance ?? (Instance = new ChocolateBoiler());
+            if (Instance == null)
+            {
+                lock (syncRoot)
+                {
+                    if (Instance == null)
+                    {
+                        Instance = new ChocolateBoiler();
+                        Console.WriteLine($"Thread {Thread.CurrentThread.Name} was created Instance this class");
+                        return Instance;
+                    }
+                }
+            }
+            
+            Console.WriteLine($"Thread {Thread.CurrentThread.Name} got Instance this class");
+            return Instance;
+            
+            //return Instance ?? (Instance = new ChocolateBoiler());
+        }
+
+        public void GetStatus()
+        {
+            Console.WriteLine($"Thread {Thread.CurrentThread.Name}: Empty: {Empty}, Boiled: { Boiled}");
         }
 
         public void Fiil()
